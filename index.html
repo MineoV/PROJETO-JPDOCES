@@ -24,27 +24,49 @@
         
         .foreground {
             position: absolute;
-            top: 50px; /* Ajuste conforme necessário */
-            left: 200px; /* Ajuste conforme necessário */
-            width: 1000px; /* Ajuste conforme necessário */
+            top: 20%; /* Ajuste conforme necessário */
+            left: 23%; /* Ajuste conforme necessário */
+            width: 900px; /* Ajuste conforme necessário */
             height: auto;
             justify-items: center;
+            z-index: 2;
         }
         .card {
-            position: relative;
-            width: 1000px; /* Ajuste conforme necessário */
+            position: absolute;
+            width: 700px; /* Ajuste conforme necessário */
             height: auto; /* Ajuste conforme necessário */
+            top: 20%;
+            left: 30%;
             
             border-radius: 10px;
             overflow: hidden;
+
+            z-index: 1;
             
         }
-        .nuvem{
-            background-color: azure;
-            padding: 20px;
+        .cloud {
+            position: absolute;
+            top: 35%;
+            left: 30%;
+            width: 700px;
+            height: 200px;
+            
+            
+              
+              display: block;
+              position: absolute;
+             
+             
+             
+              bottom: -80px;
+              border-radius: 100%;
+              
+             
+              
+            z-index: 1; /* Nuvem fica acima do background */
         }
-   
-        
+
+      
         
 
     </style>
@@ -54,11 +76,10 @@
     
     <div class="container">
         <img src="/img/backo.png" alt="Imagem de fundo" class="background">
-
-
-        <div class="nuvem">
-         <img src="/img/JPbolosss.png" alt="Imagem sobreposta" class="foreground">
-        </div>
+        <img src="/img/lio.png" alt="Nuvem" class="card">
+        <!--<div class="cloud"></div>-->
+        <img src="/img/JPbolosss.png" alt="Imagem sobreposta" class="foreground">
+        
         
 
 
