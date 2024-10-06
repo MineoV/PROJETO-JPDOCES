@@ -61,14 +61,18 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centraliza o foreground dentro da nuvem */
+    opacity: 0.8;
   }
   header {
+    position: fixed;
     height: 80px;
-    width: 100%;
+    width: 99%;
     background: #f62e98;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    z-index: 2;
 }
 
 nav{
@@ -86,7 +90,7 @@ nav{
 .menu li{
     display: inline-block;
     margin-right: 30px;
-    padding-top: 10px;
+    padding-top: 4px;
 
 }
 
@@ -143,3 +147,86 @@ nav{
     margin-left: 10px;
     
 }
+/* Estilos do cabeçalho (já explicados anteriormente) */
+
+/* Estilos da seção de biografia */
+.biografia {
+    text-align: center;
+    margin: 50px auto;
+    
+  }
+  
+  .biografia img {
+    top: 15%;
+    border-radius: 20%;
+    width: 400px;
+    height: auto;
+    position: fixed;
+    z-index: 3;
+    left: 70%;
+
+    
+  }
+  
+  .biografia p {
+    text-align: justify;
+    padding: 20px;
+    
+    ;
+  }
+  body {
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+  }
+ 
+  .main{
+    list-style: none;
+    text-align: center;
+    height: 90%;
+    
+
+}
+
+.main li{
+    display: inline-block;
+    margin-right: 30px;
+    padding-top: 4px;
+
+}
+
+.main li a{
+    padding: 4px;
+    
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #2fc2c1;
+    text-decoration: none;
+    
+    transition: background-color 0.3s;
+    
+}
+    /*mouse em cima*/
+.main li a:hover{
+    background: #2fc2c1;
+    color: #f62e98;
+    
+
+}
+  header + .main {
+
+
+    position: relative;
+    height: 80px;
+    width: 99%;
+    background: #f62e98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 5;
+  }
+  .bio{
+    top: 500px;
+    z-index: 5;
+    margin-top: 100px;
+  }
