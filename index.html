@@ -17,9 +17,9 @@
         }
         
         .background {
-            width: 100vw;
+            width: 99vw;
             height: auto;
-            opacity: 0.5;
+            opacity: 1.5;
         }
         
         .foreground {
@@ -37,6 +37,7 @@
             height: auto; /* Ajuste conforme necessário */
             top: 20%;
             left: 30%;
+            opacity: 0.8;
             
             border-radius: 10px;
             overflow: hidden;
@@ -66,13 +67,51 @@
             z-index: 1; /* Nuvem fica acima do background */
         }
 
+        .nav{
+            background-color: #f62e98;
+            height: 80px;
+            position: relative;
+            z-index: 1;
+            opacity: 0.5;
+            width: 100%; 
+
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .home{
+            background-color: #33c0bd;
+            width: 40px;
+            border-radius: 20%;
+            align-items: center;
+            
+            
+
+        }
+        header{
+            display: flex;
+            width: 100%;
+        }
+
       
         
 
     </style>
 </head>
 <body>
-        
+    
+        <header>
+        <nav class="nav">
+            <ul class="menu">
+            <li>
+                 <div class="home">home</div>
+            </li>
+            </ul>
+
+        </nav>
+        </header>
     
     <div class="container">
         <img src="/img/backo.png" alt="Imagem de fundo" class="background">
