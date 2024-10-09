@@ -65,6 +65,7 @@
             text-decoration: none;
             font-family: "Roboto", system-ui;;
             transition: background-color 0.3s;
+            padding: 10%;
             
         }
             /*mouse em cima*/
@@ -96,7 +97,7 @@
           }
           .catalogo {
             border: #2fc2c1 solid 3px;
-            background-color: rgba(240, 255, 255, 0.637);
+            background-color: rgba(240, 255, 255, 0.862);
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
@@ -107,6 +108,7 @@
             padding: 5px;
             margin-bottom: 15px;
             border-radius: 30px;
+            
           }
           .receita {
             text-align: center;
