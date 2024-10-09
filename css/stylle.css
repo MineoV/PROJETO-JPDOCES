@@ -1,0 +1,158 @@
+    /*:root{
+            --cor1: #0eb6b6;
+            --cor2: #f62e98;
+            --cor3: #2fc2c1;
+        }*/
+        body {
+            background-image: url(../img/backo.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: absolute;
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+          }
+          header {
+            background-color: #0eb6b6;
+            border-radius: 5px;
+            margin: 0px;
+            padding: 2px;
+          }
+          /*nav {
+            background-color: #f62e98;
+            border-radius: 5px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            color: #2fc2c1;
+            position: fixed;
+          }*/
+          .listacabeçalho {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin-left: -2%;
+          }
+          .listacabeçalho li:first-child { /* Botão Home */
+            margin-left: auto; /* Empurra o botão para a esquerda */
+            
+          }
+          .itemsdalista_cabeçalho {
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 15px;
+            font-size: 24px;
+          }
+          .listacabeçalho li{
+  
+            margin: 10px;
+             
+        
+        }
+        
+        
+        .listacabeçalho li a{
+            
+          
+            
+            
+            border-radius: 20px;
+            
+            font-size: 150%;
+            color: #2fc2c1;
+            text-decoration: none;
+            font-family: "Roboto", system-ui;;
+            transition: background-color 0.3s;
+            
+        }
+            /*mouse em cima*/
+        .listacabeçalho li a:hover{
+            background: #2fc2c1;
+            color: #f62e98;
+            
+        
+        }
+          .botton {
+            background-color: #f62e98;
+            border-radius: 35px;
+            -webkit-box-shadow: 6px 6px 24px -10px rgba(0, 0, 0, 0.87);
+            -moz-box-shadow: 6px 6px 24px -10px rgba(0, 0, 0, 0.87);
+            box-shadow: 6px 6px 24px -10px rgba(0, 0, 0, 0.87);
+            border: #0eb6b6 solid 2px;
+          }
+          .botton:hover {
+            background-color: #2fc2c1;
+            color: #f62e98;
+            border-radius: 35px;
+            border: #f62e98 solid 2px;
+          }
+          .receitas-Disponiveis {
+            text-align: center;
+            margin-top: 100px;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #0000009f;
+          }
+          .catalogo {
+            border: #2fc2c1 solid 3px;
+            background-color: rgba(240, 255, 255, 0.637);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 80px;
+            margin-right: 80px;
+            padding: 5px;
+            margin-bottom: 15px;
+            border-radius: 30px;
+          }
+          .receita {
+            text-align: center;
+            background-color: #f62e98;
+            border-radius: 50px;
+            color: #2fc2c1;
+            margin-left: 50px;
+            margin-right: 50px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #2fc2c267;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            -webkit-box-shadow: 6px 6px 24px -10px rgba(0, 0, 0, 0.87);
+            -moz-box-shadow: 6px 6px 24px -10px rgba(0, 0, 0, 0.87);
+            box-shadow: 6px 6px 24px -10px rgba(0, 0, 0, 0.87);
+          }
+          .card {
+            width: 50%;
+          }
+          .imagens {
+            width: 46%;
+            border-radius: 15px;
+            -webkit-box-shadow: 6px 6px 24px -10px rgba(0, 0, 0, 0.87);
+            -moz-box-shadow: 6px 6px 24px -10px rgba(0, 0, 0, 0.87);
+            box-shadow: 6px 6px 24px -10px rgba(0, 0, 0, 0.87);
+          }
+          .texto {
+            font-size: 100%;
+          }
+          .lista-receita {
+            list-style-position: inside;
+            text-align: left;
+          }
+          .lista-preparo {
+            list-style-position: inside;
+            text-align: center;
+          }
+          .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f62e98;
+            height: 10%;
+            width: 100%;
+            position: fixed;
+            z-index: 3;
+            margin-top: -7%;
+            
+          }
